@@ -23,10 +23,10 @@ body {
 	background-color: #fec00f;
 	opacity: .6;
 	filter: alpha(opacity=60);
-	width: 60%;
-	margin-left: 19%;
+	width: 800px;
+	margin: auto;
 	border: 2.5px dashed #CC3333;
-	height: 325px;
+	height: 500px;
 	float: none;
 }
 .content{
@@ -112,6 +112,13 @@ A{
 .heading{
 	font-size: 72px;
 	color: white;
+}
+
+.illuminated {
+	float:left; 
+	padding-top: 6px; 
+	padding-right: 10px; 
+	padding-bottom: 10px;
 }
 
 .yui-carousel-element li {

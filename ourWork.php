@@ -1,9 +1,8 @@
 <? include("header.inc.php"); ?>
 
-<div class="contentbg" style="height: 450px;">
+<div class="contentbg" style="height:775px; margin-bottom:50px">
 	<div class="content">
-    	<div id='mycustomscroll' class='flexcroll' style="height: 375px; padding-right: 20px;">
-	<a name="top"> </a>
+	
     <br style="line-height:5px;"/><strong class="heading" style="line-height: 0px; font-size: 20px;">Our Work:</strong>
 
     <p>The secret of rug restoration is matching extremely closely how a carpet was woven originally.</p>
@@ -20,7 +19,7 @@
         <li>Stabilization of weak carpets (sewing up slits and brittle areas)</li>
         <li>Reweaving kelims (flatwoven rugs)</li>
     </ul>
-    <div><a name="scrollDown"> </a></div>
+    
 </p>
 <p>
 <u>Additional services include:</u><br/>
@@ -37,14 +36,6 @@
  
 </p>
 
-	</div>
-    
-    <div id="first" style="text-align: right; font-size: 14px; padding-right: 10px;">
-    	<a href="#scrollDown" onClick="showHide('second');">Continue reading...</a>
-    </div>
-    <div id="second" style=" display:none; text-align: right; font-size: 14px; padding-right: 10px;">
-    	<a href="#top" onClick="showHide('first');">Back to top...</a>
-    </div>
     
     </div>
 </div>
