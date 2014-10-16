@@ -1,0 +1,158 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-image: url(images/background.jpg);
+	color: #2E2649;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
+}
+.header1 {
+	background-image: url(images/header1.png);
+	background-repeat: repeat-x;
+}
+.header2 {
+	background-image: url(images/header2.png);
+	background-repeat: repeat-x;
+}
+
+.contentbg {
+	background-color: #fec00f;
+	opacity: .6;
+	filter: alpha(opacity=60);
+	width: 60%;
+	margin-left: 19%;
+	border: 2.5px dashed #CC3333;
+	height: 325px;
+	float: none;
+}
+.content{
+	color: #000000;
+	margin-top: 35px;
+	margin-bottom: 10px;
+	margin-left: 55px;
+	margin-right: 55px;
+	line-height: 28px;
+	font-size: 12px;
+}
+.navH{
+	float: left;
+	width: 124px;
+	padding-top: 0px;
+	margin-top: 0px;
+	text-decoration: none;
+}
+A{ 
+	text-decoration: none; 
+	color: white;
+}
+.one{
+	margin-top:15px;
+	background-repeat: no-repeat;
+	left: 5px;
+	color: white;
+	font-size: 12px;
+	height: 24px;
+	padding-left: 10px;	
+	padding-top: 3px;
+	background-image:url(nav/1.gif);
+}
+.one:hover {
+	 background-image:url(nav/1a.gif);
+	 color: #2E2649;
+ }
+.two{
+	margin-top:15px;
+	background-repeat: no-repeat;
+	left: 5px;
+	color: white;
+	font-size: 12px;
+	height: 24px;
+	padding-left: 10px;	
+	padding-top: 3px;
+	background-image:url(nav/2.gif);
+}
+.two:hover { 
+	background-image:url(nav/2a.gif); 
+	color: #2E2649;
+}
+.three{
+	margin-top:15px;
+	background-repeat: no-repeat;
+	left: 5px;
+	color: white;
+	font-size: 12px;
+	height: 24px;
+	padding-left: 10px;	
+	padding-top: 3px;
+	background-image:url(nav/3.gif);
+}
+.three:hover { 
+	background-image:url(nav/3a.gif); 
+	 color: #2E2649;
+}
+.four{
+	margin-top:15px;
+	background-repeat: no-repeat;
+	left: 5px;
+	color: white;
+	font-size: 12px;
+	height: 24px;
+	padding-left: 10px;	
+	padding-top: 3px;
+	background-image:url(nav/4.gif);
+}
+.four:hover { 
+	background-image:url(nav/4a.gif); 
+	 color: #2E2649;
+}
+.heading{
+	font-size: 72px;
+	color: white;
+}
+
+.yui-carousel-element li {
+    height: 405px;
+}
+li{
+	width: 505px;
+}
+
+
+/* Scroll Bar Master Styling Starts Here */
+/* All comments can be freely removed from the css */
+
+.scrollgeneric {
+line-height: 1px;
+font-size: 1px;
+position: absolute;
+top: 0; left: 0;
+}
+
+.vscrollerbase {
+width: 10px;
+background-color: white;
+}
+.vscrollerbar {
+width: 10px;
+background-color: #511F1F;
+}
+.hscrollerbase {
+height: 10px;
+background-color: white;
+}
+.hscrollerbar {
+height: 10px;
+background-color: black;
+}
+
+.scrollerjogbox {
+width: 10px;
+height: 10px;
+top: auto; left: auto;
+bottom: 0px; right: 0px;
+background-color: gray;
+}
