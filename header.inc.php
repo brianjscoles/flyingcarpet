@@ -9,9 +9,9 @@
 <meta property="og:url" content="http://www.flyingcarpetrestoration.com/" />
 <meta property="og:description" content="We have nearly 30 years of experience working on fine antique and contemporary weavings in Germany and in the United States. At our home-studio in Oakland, we restore, stabilize and redye mostly Middle Eastern handwoven rugs, but also work on Navajos, European, Chinese and Tibetan carpets."/>
 <meta property="og:site_name" content="Flying Carpet Rug Restoration"/>
-<meta property="og:image" content="http://www.flyingcarpetrestoration.com/images/sun-rug-final.jpg"/>
+<meta property="og:image" content="images/sun-rug-final.jpg"/>
 <meta property="og:type" content="website" />
-<link rel="shortcut icon" href="http://www.flyingcarpetrestoration.com/images/sun-rug-final.jpg">
+<link rel="shortcut icon" href="images/sun-rug-final.jpg">
 <script type="text/javascript">if(top.location!=location){top.location.href=document.location.href;}</script>
 <link href="style.css" rel="stylesheet" type="text/css" />
 <?
@@ -21,6 +21,7 @@
     <script type="text/javascript" src="yui/build/yahoo-dom-event/yahoo-dom-event.js"></script>
     <script type="text/javascript" src="yui/build/element/element-beta-min.js"></script>
     <script type="text/javascript" src="yui/build/carousel/carousel-beta-min.js"></script>
+    
     
 <?	}
 ?>
