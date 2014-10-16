@@ -41,7 +41,7 @@
 </head>
 <body <? if(@$page == "photos"){ ?> class="yui-skin-sam" <? } ?>>
 <div class="header1">&nbsp;</div>
-<div align="center" style="padding-top: 44px; padding-bottom: 20px;"><img src="images/title.png" /></div>
+<div class="banner" align="center">Flying Carpet Restoration Service</div>
 <div class="header2" style="padding-top: 15px; padding-bottom: 20px;">&nbsp;</div>
 
 <div class="navH">

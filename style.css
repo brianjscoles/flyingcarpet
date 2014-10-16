@@ -19,6 +19,15 @@ body {
 	background-repeat: repeat-x;
 }
 
+.banner {
+	padding-top: 20px; 
+	padding-bottom: 20px;
+	font-size: 35px;
+	font-family: Times;
+	font-weight: bolder;
+	color: #95CBE8;
+}
+
 .contentbg {
 	background-color: #fec00f;
 	opacity: .6;
@@ -26,7 +35,6 @@ body {
 	width: 800px;
 	margin: auto;
 	border: 2.5px dashed #CC3333;
-	height: 500px;
 	float: none;
 }
 .content{
