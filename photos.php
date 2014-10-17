@@ -1,65 +1,19 @@
-<?
-	$page = "photos";
-	include("header.inc.php");
-	
-	function imageResize($width, $height, $target) { 
+<? include("header.inc.php") ?>
 
-		if ($width > $height) { 
-			$percentage = ($target / $width); 
-		} else { 
-			$percentage = ($target / $height); 
-		} 
-		
-		$width = round($width * $percentage); 
-		$height = round($height * $percentage); 
-				
-		print ("width=\"$width\" height=\"$height\""); 
-	
-	}
-?>
-
-        <!-- The Carousel container -->
-        <div id="container" style="margin-left:28%; background-color:white;">
-            <ol id="carousel">
-				<?
-				
-				 	$dir = "photos/";
-                    $file = "";
-                    $dirStream = opendir($dir);
-					$photos = array();
-					$i = 0;
-                    while(!is_bool($file = readdir($dirStream))){
-                       if($file != "." && $file != "..") $photos[$i] = $file;
-					   $i++;
-                    }
-                    closedir($dirStream);
-					natsort($photos);
-					//print_r($photos);
-					foreach($photos as $files){
-						//print($j);
-						$newFile = str_replace(" ","%20",$files);
-						$mysock = getimagesize("photos/" . $newFile);
-							//print_r($mysock);
-							?>	
-                            <li><img src="photos/<? print($newFile); ?>"<? if($mysock[0] != 0 && $mysock[1] != 0) imageResize($mysock[0],$mysock[1],400); ?> />
-					<? } ?>	
-				
-            </ol>
-        </div>
-
-    <script>
-    (function () {
-        var carousel;
-                
-        YAHOO.util.Event.onDOMReady(function (ev) {
-            var carousel    = new YAHOO.widget.Carousel("container", {
-                        isCircular: true, numVisible: 1
-                });
-
-            carousel.render(); // get ready for rendering the widget
-            carousel.show();   // display the widget
-        });
-    })();
-    </script>
+    <div class="phototable contentbg" style="z-index:1"></div>
+    <div class="phototable" style="z-index:2">
+      <div class="photoframe"><img class="galleryphoto" src="photos/1.jpg"/></div>
+      <div class="photoframe"><img class="galleryphoto" src="photos/2.jpg"/></div>
+      <div class="photoframe"><img class="galleryphoto" src="photos/3-1.jpg"/></div>
+      <div class="photoframe"><img class="galleryphoto" src="photos/4.jpg"/></div>
+      <div class="photoframe" style="height:350px"><img class="galleryphoto" src="photos/5-26.jpg"/></div>
+      <div class="photoframe" style="height:350px"><img class="galleryphoto" src="photos/6-30.jpg"/></div>
+      <div class="photoframe"><img class="galleryphoto" src="photos/7-29.jpg"/></div>
+      <div class="photoframe"><img class="galleryphoto" src="photos/8-16.jpg"/></div>
+      <div class="photoframe" style="height:350px"><img class="galleryphoto" src="photos/12-2b.jpg"/></div>
+      <div class="photoframe" style="height:350px"><img class="galleryphoto" src="photos/13.jpg"/></div>
+      <div class="photoframe"><img class="galleryphoto" src="photos/14.jpg"/></div>
+      <div class="photoframe"><img class="galleryphoto" src="photos/15.jpg"/></div>
+    </div>
 </body>
 </html>

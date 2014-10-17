@@ -31,7 +31,6 @@ body {
 .contentbg {
 	background-color: #fec00f;
 	opacity: .6;
-	filter: alpha(opacity=60);
 	width: 800px;
 	margin: auto;
 	border: 2.5px dashed #CC3333;
@@ -129,45 +128,30 @@ A{
 	padding-bottom: 10px;
 }
 
-.yui-carousel-element li {
-    height: 405px;
-}
-li{
-	width: 505px;
-}
-
-
-/* Scroll Bar Master Styling Starts Here */
-/* All comments can be freely removed from the css */
-
-.scrollgeneric {
-line-height: 1px;
-font-size: 1px;
-position: absolute;
-top: 0; left: 0;
+.phototable {
+	width: 900px;
+	height: 2800px;
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	text-align: center;
 }
 
-.vscrollerbase {
-width: 10px;
-background-color: white;
-}
-.vscrollerbar {
-width: 10px;
-background-color: #511F1F;
-}
-.hscrollerbase {
-height: 10px;
-background-color: white;
-}
-.hscrollerbar {
-height: 10px;
-background-color: black;
+.photoframe {
+	height: 520px;
+	width: 430px;
+	display: inline-block;	
+	vertical-align: text-top;
+	text-align: center;
+	margin: 2px;
+
 }
 
-.scrollerjogbox {
-width: 10px;
-height: 10px;
-top: auto; left: auto;
-bottom: 0px; right: 0px;
-background-color: gray;
+.galleryphoto {
+	max-width: 420px;
+	max-height: 490px; 
+  margin: auto;
+  margin-top: 15px;
+
 }
+
