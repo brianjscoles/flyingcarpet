@@ -1,6 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
+
 body {
 	background-image: url(images/background.jpg);
 	color: #2E2649;
@@ -22,15 +24,14 @@ body {
 .banner {
 	padding-top: 20px; 
 	padding-bottom: 20px;
-	font-size: 35px;
-	font-family: Times;
+	font-size: 45px;
+	font-family: 'Berkshire Swash';
 	font-weight: bolder;
 	color: #95CBE8;
 }
 
 .contentbg {
-	background-color: #fec00f;
-	opacity: .6;
+	background-image: url(images/yellow-bg.jpg);
 	width: 800px;
 	margin: auto;
 	border: 2.5px dashed #CC3333;
@@ -54,7 +55,8 @@ body {
 }
 A{ 
 	text-decoration: none; 
-	color: white;
+	font-color: #95CBE8;
+	font-size: 19px;
 }
 .one{
 	margin-top:15px;
@@ -121,16 +123,22 @@ A{
 	color: white;
 }
 
+.em{
+	font-size: 13px;
+	color: white;
+	font-style: bold;
+}
+
 .illuminated {
 	float:left; 
-	padding-top: 6px; 
-	padding-right: 10px; 
-	padding-bottom: 10px;
+	padding-top: 17px; 
+	padding-right: 5px; 
+	padding-bottom: 20px;
 }
 
 .phototable {
 	width: 900px;
-	height: 2800px;
+	height: 4370px;
 	position: absolute;
 	top: 20%;
 	left: 20%;
@@ -153,5 +161,9 @@ A{
   margin: auto;
   margin-top: 15px;
 
+}
+
+.embedvideo {
+	margin-left: 25px;
 }
 
