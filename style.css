@@ -55,9 +55,7 @@ body {
 }
 
 A{ 
-	text-decoration: none; 
-	font-color: #95CBE8;
-	font-size: 19px;
+	text-decoration: none;
 }
 
 .one{
@@ -129,7 +127,7 @@ A{
 .em{
 	font-size: 13px;
 	color: white;
-	font-style: bold;
+	font-style: bolder;
 }
 
 .illuminated {
