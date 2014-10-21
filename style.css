@@ -53,11 +53,13 @@ body {
 	margin-top: 0px;
 	text-decoration: none;
 }
+
 A{ 
 	text-decoration: none; 
 	font-color: #95CBE8;
 	font-size: 19px;
 }
+
 .one{
 	margin-top:15px;
 	background-repeat: no-repeat;
@@ -69,6 +71,7 @@ A{
 	padding-top: 3px;
 	background-image:url(nav/1.gif);
 }
+
 .one:hover {
 	 background-image:url(nav/1a.gif);
 	 color: #2E2649;
