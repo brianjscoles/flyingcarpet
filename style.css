@@ -34,6 +34,7 @@ body {
 	background-image: url(images/yellow-bg.jpg);
 	width: 800px;
 	margin: auto;
+	margin-bottom: 50px;
 	border: 2.5px dashed #CC3333;
 	float: none;
 }
@@ -158,7 +159,7 @@ A{
 
 .phototable {
 	width: 900px;
-	height: 3200px;
+	height: 2940px;
 	position: absolute;
 	top: 20%;
 	left: 20%;
@@ -187,3 +188,6 @@ A{
 	margin-left: 25px;
 }
 
+input, textarea {
+	background-color: lightgray;
+}
