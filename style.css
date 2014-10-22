@@ -1,8 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
 
-
-
 body {
 	background-image: url(images/background.jpg);
 	color: #2E2649;
@@ -19,14 +17,16 @@ body {
 .header2 {
 	background-image: url(images/header2.png);
 	background-repeat: repeat-x;
+	margin-top: 5px; 
+	padding-bottom: 10px;
 }
 
 .banner {
-	padding-top: 20px; 
-	padding-bottom: 20px;
-	font-size: 45px;
+	padding-top: 10px; 
+	padding-bottom: 10px;
+	font-size: 50px;
 	font-family: 'Berkshire Swash';
-	font-weight: bolder;
+	font-style: bold;
 	color: #95CBE8;
 }
 
@@ -57,6 +57,21 @@ body {
 A{ 
 	text-decoration: none;
 }
+.navbutton{
+	color: white;
+	font-size:24px;
+	margin: 10px 20px 15px 20px;
+	padding-bottom: 24px;
+	font-family: 'Berkshire Swash';
+	font-style: bold;
+}
+
+.navbutton:hover{
+	color: #95CBE8;
+	text-decoration: underline;
+}
+
+/*
 
 .one{
 	margin-top:15px;
@@ -119,6 +134,9 @@ A{
 	background-image:url(nav/4a.gif); 
 	 color: #2E2649;
 }
+
+*/
+
 .heading{
 	font-size: 72px;
 	color: white;
@@ -127,7 +145,7 @@ A{
 .em{
 	font-size: 13px;
 	color: white;
-	font-style: bolder;
+	font-style: bold;
 }
 
 .illuminated {
@@ -135,11 +153,12 @@ A{
 	padding-top: 17px; 
 	padding-right: 5px; 
 	padding-bottom: 20px;
+	color: white;
 }
 
 .phototable {
 	width: 900px;
-	height: 4370px;
+	height: 3200px;
 	position: absolute;
 	top: 20%;
 	left: 20%;
