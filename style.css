@@ -58,6 +58,8 @@ body {
 A{ 
 	text-decoration: none;
 }
+
+
 .navbutton{
 	color: white;
 	font-size:24px;
@@ -67,7 +69,7 @@ A{
 	font-style: bold;
 }
 
-.navbutton:hover{
+A:hover{
 	color: #95CBE8;
 	text-decoration: underline;
 }
