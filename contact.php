@@ -12,9 +12,11 @@
         mail($to, $subject, $message, $headers);
         $message = "Your message has been sent.";
     } 
+
+?>
     <? if(@$message){ ?><div class="message"><? print($message); ?></div><? } ?>
     
-?>
+
 
     <div class="contentbg">
 	     <div class="content">
