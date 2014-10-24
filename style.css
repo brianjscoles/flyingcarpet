@@ -35,7 +35,7 @@ body {
 .contentbg {
 	background-image: url(images/yellow-bg.jpg);
 	width: 800px;
-	margin: 50px auto;
+	margin: 30px auto;
 	border: 2.5px dashed #CC3333;
 	float: none;
 }
@@ -49,10 +49,14 @@ body {
 	font-size: 12px;
 }
 
+.navbar{
+	margin-top:10px;
+}
+
 .navbutton{
 	color: #F7F5DA;
 	font-size:16px;
-	margin: 10px 30px 15px 30px;
+	margin: 15px 45px;
 	font-family: Georgia;
 	font-style: bold;
 }
@@ -62,96 +66,23 @@ A{
 }
 
 
-
-
 A:hover{
 	color: #95CBE8;
 	text-decoration: underline;
 }
-
-/*
-.navH{
-	float: left;
-	width: 124px;
-	padding-top: 0px;
-	margin-top: 0px;
-	text-decoration: none;
-}
-
-.one{
-	margin-top:15px;
-	background-repeat: no-repeat;
-	left: 5px;
-	color: white;
-	font-size: 12px;
-	height: 24px;
-	padding-left: 10px;	
-	padding-top: 3px;
-	background-image:url(nav/1.gif);
-}
-
-.one:hover {
-	 background-image:url(nav/1a.gif);
-	 color: #2E2649;
- }
-.two{
-	margin-top:15px;
-	background-repeat: no-repeat;
-	left: 5px;
-	color: white;
-	font-size: 12px;
-	height: 24px;
-	padding-left: 10px;	
-	padding-top: 3px;
-	background-image:url(nav/2.gif);
-}
-.two:hover { 
-	background-image:url(nav/2a.gif); 
-	color: #2E2649;
-}
-.three{
-	margin-top:15px;
-	background-repeat: no-repeat;
-	left: 5px;
-	color: white;
-	font-size: 12px;
-	height: 24px;
-	padding-left: 10px;	
-	padding-top: 3px;
-	background-image:url(nav/3.gif);
-}
-.three:hover { 
-	background-image:url(nav/3a.gif); 
-	 color: #2E2649;
-}
-.four{
-	margin-top:15px;
-	background-repeat: no-repeat;
-	left: 5px;
-	color: white;
-	font-size: 12px;
-	height: 24px;
-	padding-left: 10px;	
-	padding-top: 3px;
-	background-image:url(nav/4.gif);
-}
-.four:hover { 
-	background-image:url(nav/4a.gif); 
-	 color: #2E2649;
-}
-
-*/
 
 .heading{
 	font-size: 72px;
 	color: #F7F5DA;
 }
 
-.em{
+h3, .em{
 	font-size: 13px;
 	color: #F7F5DA;
 	font-style: bold;
+	margin-bottom: -12px
 }
+
 
 .illuminated {
 	float:left; 
