@@ -27,7 +27,7 @@ body {
 	padding-top: 10px; 
 	padding-bottom: 10px;
 	font-size: 45px;
-	font-family: 'Berkshire Swash';
+	font-family: Georgia;
 	font-style: bold;
 	color: #95CBE8;
 }
@@ -51,9 +51,9 @@ body {
 
 .navbutton{
 	color: #F7F5DA;
-	font-size:20px;
-	margin: 10px 20px 15px 20px;
-	font-family: 'Berkshire Swash';
+	font-size:16px;
+	margin: 10px 30px 15px 30px;
+	font-family: Georgia;
 	font-style: bold;
 }
 
