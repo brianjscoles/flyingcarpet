@@ -2,7 +2,7 @@
 
     include("header.inc.php");
     if(@$_POST['name']){
-        $to = "tatkopp@aol.com";
+        $to = "brianscoles@gmail.com";  //for testing only!  should actually point to tatkopp@aol.com
         $subject = 'MAIL FROM SITE: ' . $_POST['subject'];
         $message = 'FROM: ' . $_POST['email'] . "
         " . $_POST['message'];
