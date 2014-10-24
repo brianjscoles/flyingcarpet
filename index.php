@@ -15,7 +15,7 @@
   </head>
   <body>
     <center>
-    <a href="home.html"><div><img src="images/sun-rug-final.jpg" /></div></a>
+    <a href="home.php"><div><img src="images/sun-rug-final.jpg" /></div></a>
     </center>
   </body>
 </html>
