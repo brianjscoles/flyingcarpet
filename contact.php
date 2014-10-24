@@ -12,6 +12,7 @@
         mail($to, $subject, $message, $headers);
         $message = "Your message has been sent.";
     } 
+    <? if(@$message){ ?><div class="message"><? print($message); ?></div><? } ?>
     
 ?>
 
@@ -65,7 +66,7 @@
     } 
     
 ?>
-      <? if(@$message){ ?><div class="message"><? print($message); ?></div><? } ?>
+      
 -->
 
 </html>

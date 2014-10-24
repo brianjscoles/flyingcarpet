@@ -14,7 +14,7 @@
     <link rel="shortcut icon" href="http://www.flyingcarpetrestoration.com/images/sun-rug-final.jpg">
     <script type="text/javascript">if(top.location!=location){top.location.href=document.location.href;}</script>
     <link href="style.css" rel="stylesheet" type="text/css" />
-    
+    <link href="http://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet" type="text/css">
     <div class="header1">&nbsp;</div>
     <div class="banner" align="center">Flying Carpet Restoration Service</div>
     <div class="newNav" align="center">
