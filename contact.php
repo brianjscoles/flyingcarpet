@@ -48,7 +48,7 @@
         </table>
     </div>
 </div>
-<script> document.getElementById("three").style.color = "#95CBE8"; </script>
+<script> document.getElementById("three").className += " activePageLink"; </script>
 </body>
 
 

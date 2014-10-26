@@ -18,10 +18,10 @@
     <div class="header1">&nbsp;</div>
     <div class="banner" align="center">Flying Carpet Restoration Service</div>
     <div class="newNav" align="center">
-      <a href="home.php" class="one">Home</a>
-      <a href="photos.php" class="two">Gallery</a>
-      <a href="contact.php" class="three">Contact</a>
-      <a href="ourWork.php" class="four">Our Work</a>
+      <a href="home.php" class="navbutton" id="one">Home</a>
+      <a href="photos.php" class="navbutton" id="two">Gallery</a>
+      <a href="contact.php" class="navbutton" id="three">Contact</a>
+      <a href="ourWork.php" class="navbutton" id="four">Our Work</a>
     </div>
     <div class="header2">&nbsp;</div>
   </head>

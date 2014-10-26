@@ -24,6 +24,6 @@
       <div class="photoframe"style="height:450px"><img class="galleryphoto" src="photos/18.2d.jpg"/></div>
   
     </div>
-    <script> document.getElementById("two").style.color = "#95CBE8"; </script>
+    <script> document.getElementById("two").className += " activePageLink"; </script>
 </body>
 </html>

@@ -27,6 +27,6 @@
         </div>
 
     </div>
-    <script> document.getElementById("one").style.color = "#95CBE8"; </script>
+    <script> document.getElementById("one").className += " activePageLink"; </script>
   </body>
 </html>
