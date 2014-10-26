@@ -1,15 +1,14 @@
 <? include("header.inc.php"); ?>
 
-    <div class="contentbg" style="height:775px; margin-bottom:50px">
-    	<div class="content">
-    	
-        <br style="line-height:5px;"/><strong class="heading" style="line-height: 0px; font-size: 20px;">Our Work</strong>
+   <div class="contentbg" style="height:725px; margin-bottom:50px">
+        <div class="content">
+        
 
         <p>The secret of rug restoration is matching extremely closely how a carpet was woven originally.</p>
     <p style="margin-top:30px">
-        <u class="em" style="font-size:16px;">Common Services:</u><br/>
+        <h3>COMMON SERVICES:</h3>
         <ul>
-        	<li>Edge-binding along the sides of rugs</li>
+            <li>Edge-binding along the sides of rugs</li>
             <li>End-stopping on the end of rugs to halt unravelling</li>
             <li>Reweaving holes caused by moths, pets, impact, furniture and age</li>
             <li>Replacing bad old repairs</li>
@@ -23,8 +22,8 @@
         
     </p>
     <p>
-    <u class="em" style="font-size:16px">Additional services:</u><br/>
-    	<ul>            
+    <h3>ADDITIONAL SERVICES:</h3>
+        <ul>            
             <li>Making pillows of rugs that are damaged beyond repair</li> 
             <li>Embroidering design when reknotting is not an option(such as in extensive heavily worn areas)</li>
             <li>Redying when repiling is not an option</li>
@@ -41,5 +40,6 @@
     
     </div>
     </div>
+    <script> document.getElementById("four").style.color = "#95CBE8"; </script>
   </body>
 </html>

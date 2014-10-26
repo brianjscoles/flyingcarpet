@@ -19,25 +19,25 @@
 
 
     <div class="contentbg">
-	     <div class="content">
-    	<p>To contact, please email me at <a href="mailto:tatkopp@gmail.com?Subject=Carpet%20Restoration%20Inquiry" target="_top"class="em">tatkopp@gmail.com</a>, call <span class="em">(510) 654-3250</span>, or fill out the form below.</p>
+         <div class="content">
+        <p>To contact, please email <a href="mailto:tatkopp@gmail.com?Subject=Carpet%20Restoration%20Inquiry" target="_top"class="em">tatkopp@gmail.com</a>, call <span class="em">(510) 654-3250</span>, or fill out the form below.</p>
         <p>Also check us out on <a class="em" style="font-size: 16px;" href="http://www.yelp.com/biz/carpet-restoration-antique-and-handmade-tatjana-kopp-oakland" target="_blank">Yelp!</a></p>
-    	<table>
+        <table>
         <form method="post" action="contact.php">
-        	<tr>
-            	<td>Your Name</td>
+            <tr>
+                <td>Your Name</td>
                 <td><input name="name" id="name" type="text" /></td>
             </tr>
             <tr>
-            	<td>Your Email</td>
+                <td>Your Email</td>
                 <td><input name="email" id="email" type="text" /></td>
             </tr>
             <tr>
-            	<td>Subject</td>
+                <td>Subject</td>
                 <td><input name="subject" id="subject" type="text" /></td>
             </tr>
             <tr>
-            	<td valign="top">Message</td>
+                <td valign="top">Message</td>
                 <td><textarea rows="10" cols="60" name="message" id="message"></textarea></td>
             </tr>
             <tr>
@@ -48,6 +48,7 @@
         </table>
     </div>
 </div>
+<script> document.getElementById("three").style.color = "#95CBE8"; </script>
 </body>
 
 
