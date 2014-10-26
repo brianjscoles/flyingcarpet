@@ -1,6 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
 
+html{
+	overflow: -moz-scrollbars-vertical;
+	overflow-y: scroll;
+}
+
 body {
 	background-image: url(images/background.jpg);
 	color: #2E2649;
@@ -26,9 +31,9 @@ body {
 .banner {
 	padding-top: 10px; 
 	padding-bottom: 10px;
-	font-size: 45px;
+	font-size: 40px;
 	font-family: Georgia;
-	font-style: bold;
+	font-weight: bold;
 	color: #95CBE8;
 }
 
@@ -79,7 +84,7 @@ A:hover, .activePageLink {
 h3, .em{
 	font-size: 13px;
 	color: #F7F5DA;
-	font-style: bold;
+	font-weight: bold;
 	margin-bottom: -12px
 }
 

@@ -1,8 +1,6 @@
-<? 
-
-    include("header.inc.php");
+<? include("header.inc.php");
     if(@$_POST['name']){
-        $to = "brianscoles@gmail.com";  //for testing only!  should actually point to tatkopp@aol.com
+        $to = "tatkopp@aol.com"; 
         $subject = 'MAIL FROM SITE: ' . $_POST['subject'];
         $message = 'FROM: ' . $_POST['email'] . "
         " . $_POST['message'];
@@ -10,16 +8,12 @@
         'Reply-To: ' . $_POST['email'] . "\r\n" .
         'X-Mailer: PHP/' . phpversion();
         mail($to, $subject, $message, $headers);
-        $message = "Your message has been sent.";
+        $message = "Thank you - your message has been sent.";
     } 
-
 ?>
-    <? if(@$message){ ?><div class="message"><? print($message); ?></div><? } ?>
-    
-
-
-    <div class="contentbg">
-         <div class="content">
+<? if(@$message){ ?><div class="em"><? print($message); ?></div><? } ?>
+<div class="contentbg">
+      <div class="content">
         <p>To contact, please email <a href="mailto:tatkopp@gmail.com?Subject=Carpet%20Restoration%20Inquiry" target="_top"class="em">tatkopp@gmail.com</a>, call <span class="em">(510) 654-3250</span>, or fill out the form below.</p>
         <p>Also check us out on <a class="em" style="font-size: 16px;" href="http://www.yelp.com/biz/carpet-restoration-antique-and-handmade-tatjana-kopp-oakland" target="_blank">Yelp!</a></p>
         <table>
@@ -50,26 +44,4 @@
 </div>
 <script> document.getElementById("three").className += " activePageLink"; </script>
 </body>
-
-
-<!-- PHP section - needs to be replaced! 
-
-<? 
-
-    if(@$_POST['name']){
-        $to = "tatkopp@aol.com";
-        $subject = 'MAIL FROM SITE: ' . $_POST['subject'];
-        $message = 'FROM: ' . $_POST['email'] . "
-        " . $_POST['message'];
-        $headers = 'From: webmaster@flyingcarpetrugrestoration.com' . "\r\n" .
-        'Reply-To: ' . $_POST['email'] . "\r\n" .
-        'X-Mailer: PHP/' . phpversion();
-        mail($to, $subject, $message, $headers);
-        $message = "Your message has been sent.";
-    } 
-    
-?>
-      
--->
-
 </html>
