@@ -72,7 +72,7 @@ A{
 
 
 A:hover, .activePageLink {
-	color: #95CBE8;
+	/* color: #95CBE8; */
 	text-decoration: underline;
 }
 
@@ -99,7 +99,7 @@ h3, .em{
 
 .phototable {
 	width: 900px;
-	height: 4300px;
+	height: 4860px;
 	text-align: center;
 }
 

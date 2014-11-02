@@ -23,9 +23,8 @@
           
           <h3>OUR GUARANTEE</h3>
           <p>We are reliable, punctual, thorough and efficient. You will be pleased with our service.</p>
-          <iframe class="embedvideo" src="http://player.vimeo.com/video/109435962?color=ff9933" width="650" height="371" style="margin-top: 20px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <iframe class="embedvideo" src="http://player.vimeo.com/video/110683002?color=ff9933" width="650" height="371" style="margin-top: 20px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>
-
     </div>
     <script> document.getElementById("one").className += " activePageLink"; </script>
   </body>

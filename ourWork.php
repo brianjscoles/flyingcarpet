@@ -2,10 +2,8 @@
 
    <div class="contentbg" style="height:725px; margin-bottom:50px">
         <div class="content">
-        
-
         <p>The secret of rug restoration is matching extremely closely how a carpet was woven originally.</p>
-    <p style="margin-top:30px">
+        <p style="margin-top:20px"></p>
         <h3>COMMON SERVICES:</h3>
         <ul>
             <li>Edge-binding along the sides of rugs</li>

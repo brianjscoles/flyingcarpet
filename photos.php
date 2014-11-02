@@ -20,8 +20,10 @@
       <div class="photoframe"style="height:350px"><img class="galleryphoto" src="photos/16b.jpg"/></div>
       <div class="photoframe"style="height:450px"><img class="galleryphoto" src="photos/18.2a.jpg"/></div>
       <div class="photoframe"style="height:450px"><img class="galleryphoto" src="photos/18.2b.jpg"/></div>
-      <div class="photoframe"style="height:450px"><img class="galleryphoto" src="photos/18.2c.jpg"/></div>
-      <div class="photoframe"style="height:450px"><img class="galleryphoto" src="photos/18.2d.jpg"/></div>
+      <div class="photoframe"style="height:535px"><img class="galleryphoto" src="photos/18.2c.jpg"/></div>
+      <div class="photoframe"style="height:535px"><img class="galleryphoto" src="photos/18.2d.jpg"/></div>
+      <div class="photoframe"><img class="galleryphoto" src="photos/dyeing.jpg"/></div>
+      <div class="photoframe"><img class="galleryphoto" src="photos/hannah.jpg"/></div>
   
     </div>
     <script> document.getElementById("two").className += " activePageLink"; </script>
