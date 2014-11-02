@@ -14,6 +14,8 @@
 <? if(@$message){ ?><div class="em"><? print($message); ?></div><? } ?>
 <div class="contentbg">
       <div class="content">
+        <iframe class="embedvideo" src="http://player.vimeo.com/video/110161327?color=ff9933" width="650" height="371" style="margin-top: 20px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <div style="margin-top: 15px"></div>
         <p>To contact, please email <a href="mailto:tatkopp@gmail.com?Subject=Carpet%20Restoration%20Inquiry" target="_top"class="em">tatkopp@gmail.com</a>, call <span class="em">(510) 654-3250</span>, or fill out the form below.</p>
         <p>Also check us out on  <span id="yelp-biz-badge-plain-Am5cr7pKhvygRf8HCUYu5A"><a href="http://www.yelp.com/biz/carpet-restoration-antique-and-handmade-tatjana-kopp-oakland">Check out Carpet Restoration, Antique and Handmade,Tatjana Kopp on Yelp</a></span><script type="text/javascript">(function(d, t) {var g = d.createElement(t);var s = d.getElementsByTagName(t)[0];g.id = "yelp-biz-badge-script-plain-Am5cr7pKhvygRf8HCUYu5A";g.src = "//dyn.yelpcdn.com/biz_badge_js/en_US/plain/Am5cr7pKhvygRf8HCUYu5A.js";s.parentNode.insertBefore(g, s);}(document, 'script'));</script></p>
         <table>
